@@ -14,7 +14,7 @@ RStudio Shinyapp was limited to one connection at a time to the MySQL database. 
 By using docker to containerize CPP, we can launch multiple containers of CPP and users could all connect to the database at the same time. Users would not have to wait for each other's query to run their own query on the database.
 
 ### My Contributions
-I created the docker file to containerize the MySQL database for CPP to connect to. This will reduce down time when updating the database. When updating the database, a new database container will be created with the new data. Afterward, we would only need to change the configuration file of CPP container to point at the new database container. I created a script to automate the process of updating the CPP container configuration file.
+I created the docker file to containerize the MySQL database for CPP to connect to. This will reduce down time when updating the database. When updating the database, a new database container will be created with the new data. Afterward, we would only need to change the configuration file of CPP container to point at the new database container. I created "Docker_Config_File_Update.R" to automate the process of updating the CPP container configuration file.
 
 ### To Run
 Follow the guide in DockerShinyProxy_WriteUp.pdf to run the docker images of CPP and the database.
