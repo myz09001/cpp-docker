@@ -3,6 +3,7 @@
 ## What is CPP?
 Cancer Publication Portal (CPP) is a tool will help researchers find biomedical journals related to human cancer. The tool will break down the journals by genes, cancer types, drugs, and mutations. The researcher will be able to filter the journals by these categories.
 
+Article: https://f1000research.com/articles/8-2073/v1
 AACR 2019 Abstract: https://www.abstractsonline.com/pp8/#!/6812/presentation/6247
 
 ## Docker
